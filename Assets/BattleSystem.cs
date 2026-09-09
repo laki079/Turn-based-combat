@@ -32,7 +32,7 @@ public class BattleSystem : MonoBehaviour
     void SetupBattle()
     {
         GameObject playerGo = Instantiate(playerPrefab, playerBattleStation);
-        playerGo.GetComponent<Unit>();
+        playerUnit = playerGo.GetComponent<Unit>();
 
         GameObject enemyGo = Instantiate(ememyPrefab, enemyBattleStation);
         enemyUnit = enemyGo.GetComponent<Unit>();
