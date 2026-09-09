@@ -754,7 +754,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.687215
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1105,7 +1105,7 @@ RectTransform:
   m_GameObject: {fileID: 874584806}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.725, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1584004650}
   - {fileID: 1692954181}
@@ -1114,7 +1114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00058755, y: -212.12}
+  m_AnchoredPosition: {x: 0.00058755, y: -171}
   m_SizeDelta: {x: 800, y: 135.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874584808
@@ -1605,7 +1605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -177.38, y: 178}
+  m_AnchoredPosition: {x: -177.38, y: 135}
   m_SizeDelta: {x: 354.75, y: 115.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290496120
@@ -2160,6 +2160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1714929644}
   - component: {fileID: 1714929643}
+  - component: {fileID: 1714929645}
   m_Layer: 0
   m_Name: Battle System
   m_TagString: Untagged
@@ -2181,7 +2182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 5674484368629161613, guid: 10021f1ffb851ee42a2f9e2ce33428b7,
     type: 3}
-  enemyPrefab: {fileID: 5046871492963100558, guid: 302bdc8dead690247957754e115acde3,
+  ememyPrefab: {fileID: 5046871492963100558, guid: 302bdc8dead690247957754e115acde3,
     type: 3}
   playerBattleStation: {fileID: 776899475}
   enemyBattleStation: {fileID: 1466009198}
@@ -2203,6 +2204,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1714929645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714929642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214278870c7b3dc48b92ea66b9f8679c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitLevelup: 0
 --- !u!1 &1715227581
 GameObject:
   m_ObjectHideFlags: 0
